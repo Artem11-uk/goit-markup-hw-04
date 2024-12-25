@@ -299,15 +299,7 @@ align-items: center;
 
 
 
-.social-media-title {
-    color: #ffffff;
-    margin: 0;
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        margin-bottom: 16px;
-}
+
 
 .link {
     padding-left: 0;
@@ -323,25 +315,11 @@ align-items: center;
     height: 40px;
 }
 
-.link-social-team {
-    background-color: #4d5ae5;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
 
-.link-social-team:hover,
-.link-social-team:focus {
-    background-color: #31d0aa;
-    outline: none;
-}
+
+
 
 .icon-team {
     fill: #F4F4FD;
@@ -420,17 +398,6 @@ font-weight: 400;
     margin-right: 120px;
 }
 
-.social-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.logo-description-footer {
-    width: 264px;
-}
-
 .logo-footer {
     font-weight: 700;
     font-size: 18px;
@@ -457,3 +424,68 @@ font-weight: 400;
     margin: 0;
 }
 
+.social-media-block {
+
+}
+
+
+
+.social-media-title {
+    color: #ffffff;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.link-footer {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        padding: 24px 0;
+        display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: row;
+            gap: 16px;
+            padding: 0;
+}
+
+.link-social-footer {
+    width: 40px;
+    height: 40px;
+}
+
+.link-social-team:hover,
+.link-social-team:focus {
+    background-color: #31d0aa;
+    outline: none;
+}
+
+.link-social-team {
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-team-footer {
+    fill: #F4F4FD;
+     width: 40px;
+}
+
+.social-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
