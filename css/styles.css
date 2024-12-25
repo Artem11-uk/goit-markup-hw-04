@@ -311,7 +311,7 @@ align-items: center;
 .link {
     padding-left: 0;
     display: flex;
-    gap: 24px;
+    gap: 16px;
     margin: 0;
 }
 
@@ -412,6 +412,7 @@ font-weight: 400;
 
 .box-footer {
     display: flex;
+    align-items: baseline;
 }
 
 .box-logo-footer {
