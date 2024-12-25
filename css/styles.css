@@ -285,6 +285,7 @@ align-items: center;
         text-align: center;
         color: #2e2f42;
         margin-bottom: 8px;
+        margin-top: 0;
 }
 
 .description-list-team {
@@ -311,7 +312,7 @@ align-items: center;
 .link {
     padding-left: 0;
     display: flex;
-    gap: 16px;
+    gap: 24px;
     margin: 0;
 }
 
