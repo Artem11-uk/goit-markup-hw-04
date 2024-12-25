@@ -18,6 +18,8 @@ a {
 
 img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 ul, ol {
@@ -268,10 +270,11 @@ align-items: center;
     margin: 0;
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
-    }
+    width: 264px;
+}
 
 .box-list-team {
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 .title-list-team {
@@ -293,20 +296,16 @@ align-items: center;
         color: #434455;
 }
 
-.social-media-block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
+
 
 .social-media-title {
-    font-size: 16px;
-    font-weight: bold;
     color: #ffffff;
     margin: 0;
-    line-height: 1;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
 }
 
 .link {
@@ -411,6 +410,14 @@ font-weight: 400;
     padding-bottom: 100px;
  }
 
+.box-footer {
+    display: flex;
+}
+
+.box-logo-footer {
+    margin-right: 120px;
+}
+
 .social-title {
     font-size: 18px;
     font-weight: bold;
@@ -445,5 +452,6 @@ font-weight: 400;
     color: #f4f4fd;
     background: #2e2f42;
     max-width: 264px;
+    margin: 0;
 }
 
