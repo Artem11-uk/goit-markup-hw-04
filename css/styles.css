@@ -134,7 +134,8 @@ align-items: center;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
     background-position: center;
 }
 
@@ -271,7 +272,6 @@ align-items: center;
     
 
 .list-team {
-    background-color: #ffffff ;
     margin: 0;
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
@@ -285,6 +285,7 @@ align-items: center;
 .box-list-team {
 padding: 32px 0 32px;
 margin-left: 16px;
+
 
 }
 
@@ -308,28 +309,20 @@ margin-left: 16px;
         color: #434455;
 }
 
-
-
-
-
 .link {
     padding-left: 0;
     display: flex;
     gap: 24px;
     margin: 0;
+    
 }
-
-
 
 .link-team {
     width: 40px;
     height: 40px;
+    justify-content: center;
+    background-color: #404BBF;
 }
-
-
-
-
-
 
 
 .icon-team {
@@ -340,7 +333,6 @@ margin-left: 16px;
 .section-portfolio {
     display: flex;
     padding: 120px 0;
-
 }
     
 .title-portfolio {
