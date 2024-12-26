@@ -325,7 +325,7 @@ margin-left: 16px;
 
 
 .link-social-team {
-    background-color: #404bbf;
+    background-color: #4d5ae5;
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -338,7 +338,7 @@ margin-left: 16px;
 
 .link-social-team:hover,
 .link-social-team:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
     outline: none;
 }
 
@@ -351,9 +351,9 @@ margin-left: 16px;
 .section-portfolio {
     display: flex;
     padding: 120px 0;
-
 }
-    
+
+
 .title-portfolio {
     font-weight: 700;
         font-size: 36px;
@@ -363,6 +363,7 @@ margin-left: 16px;
         color: #2e2f42;
         text-transform: capitalize;
         margin-bottom: 72px;
+        
 }
 
 .list-portfolio {
@@ -373,6 +374,7 @@ margin-left: 16px;
     gap: 24px;
     padding-left: 0;
     row-gap: 48px;
+    
 }
 
 .description-portfolio {
