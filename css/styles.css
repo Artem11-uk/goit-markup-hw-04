@@ -42,9 +42,10 @@ ul, ol {
 margin
 }
 
-.box-header {
-display: flex;
-align-items: center;
+.list-navigation li:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .navigation {
@@ -83,10 +84,15 @@ align-items: center;
     color: #2e2f42;
     padding: 24px 0;
     position: relative;
-    color: #404bbf;
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.list-navigation li:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .nav-link::after {
@@ -104,10 +110,6 @@ align-items: center;
 
 .nav-link:hover::after {
     transform: scaleX(1);
-}
-
-.nav-link:hover {
-    color: #2020e0;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -135,12 +137,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-decoration: none;
-color: #000;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-address:hover {
-    color: #404bbf;
 }
 
 .link-address:hover, .link-address:focus {
